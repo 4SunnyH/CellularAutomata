@@ -69,7 +69,7 @@ def show_rule_110(maxstep: int, plot_num: int):
     grid = np.array(grid[::-1])
     cmap = ListedColormap(['white', 'black'])
     norm = Normalize(vmin=0, vmax=1)
-    plt.figure(figsize=(40, 40), dpi=800)
+    plt.figure(figsize=(20, 20), dpi=600)
     plt.pcolormesh(grid, edgecolors='k', linewidth=0.1, cmap=cmap, norm=norm)
     plt.axis('off')
     plt.savefig(f"plot_{plot_num}.png", bbox_inches='tight', pad_inches=0.2)
