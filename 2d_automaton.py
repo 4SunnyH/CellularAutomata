@@ -1,5 +1,6 @@
 """2d_automaton.py
 This file is part of He Sun's final paper for PHY196 at University of Toronto.
+Author: He Sun
 """
 
 import matplotlib.pyplot as plt
